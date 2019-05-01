@@ -1,5 +1,7 @@
+
+
 function StartCountdown() {
-  var timeleft = 10;
+0  var timeleft = 10;
   var downloadTimer = setInterval(function() {
     document.getElementById("countdown").innerHTML = timeleft + "seconds remaining";
     timeleft -= 1;
@@ -8,5 +10,4 @@ function StartCountdown() {
       document.getElementById("countdown").innerHTML = "Finished"
     }
   }, 1000);
-
 }
