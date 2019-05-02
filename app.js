@@ -1,9 +1,10 @@
-
-
+// Starts the counter by clicking on Start
 function StartCountdown() {
-  var timeleft = 10;
+
+  var time = document.getElementById('Input').value;
+  var timeleft = time;
   var downloadTimer = setInterval(function() {
-    document.getElementById("countdown").innerHTML = timeleft + "seconds remaining";
+    document.getElementById("countdown").innerHTML = timeleft;
     timeleft -= 1;
     if(timeleft <= 0) {
       clearInterval(downloadTimer);

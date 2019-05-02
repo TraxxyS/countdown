@@ -1,0 +1,18 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Counter {
+  font-size: 75px;
+  color: red;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+}
+
+span {
+  width: 100px;
+  height: 100px;
+}
